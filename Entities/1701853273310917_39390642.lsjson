@@ -1,0 +1,39 @@
+{
+    "1701853273310917:39390642": {
+        "IResourceController": {
+            "name": "prefabObj",
+            "type": 12,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1701853273310791:39390622",
+            "fileId": "1701853273408558:39390702",
+            "originalId": "1701853470474853:39439909",
+            "publicId": "1701853273410205:39390703",
+            "expected_hash": "3e88262cf95b010df19ea0a1142be95f"
+        },
+        "IResourceManager": {
+            "uid": "1701853273310791:39390622",
+            "name": "prefabObj",
+            "flags": 0
+        }
+    },
+    "1701853273408558:39390702": {
+        "IFileManager": {
+            "path": "Files/File_1701853273408558_39390702.oprfb"
+        }
+    },
+    "1701853273410205:39390703": {
+        "IResourceController": {
+            "public": {
+                "path": "KirinUtil/Demo/prefabObj.oprfb",
+                "hash": "67bc4b8d3c2ef43009de9e41efffd8f1"
+            }
+        }
+    },
+    "1701853470474853:39439909": {
+        "IFileManager": {
+            "path": "Files/File_1701853470474853_39439909.oprfb"
+        }
+    }
+}

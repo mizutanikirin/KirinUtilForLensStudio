@@ -1,0 +1,22 @@
+{
+    "1709792426975199:15411790": {
+        "IResourceController": {
+            "name": "Materials",
+            "type": 0,
+            "subtype": -1,
+            "dependency": 0,
+            "hidden": false,
+            "publicId": "1709792426975416:15411791",
+            "resources": [
+                "1709792665499808:15524094"
+            ]
+        }
+    },
+    "1709792426975416:15411791": {
+        "IResourceController": {
+            "public": {
+                "path": "KirinUtil/Materials"
+            }
+        }
+    }
+}

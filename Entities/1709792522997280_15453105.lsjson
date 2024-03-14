@@ -1,0 +1,23 @@
+{
+    "1709792522997280:15453105": {
+        "IResourceController": {
+            "name": "Textures",
+            "type": 0,
+            "subtype": -1,
+            "dependency": 0,
+            "hidden": false,
+            "publicId": "1709792522997507:15453106",
+            "resources": [
+                "1709792665655220:15524162",
+                "1709791954220827:15069446"
+            ]
+        }
+    },
+    "1709792522997507:15453106": {
+        "IResourceController": {
+            "public": {
+                "path": "KirinUtil/Textures"
+            }
+        }
+    }
+}

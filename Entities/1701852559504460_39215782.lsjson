@@ -1,0 +1,26 @@
+{
+    "1701852559503528:39215781": {
+        "IResourceController": {
+            "public": {
+                "path": "KirinUtil/Scripts",
+                "hash": "a418ec40cbd397cd7aac886c2cc863ba"
+            }
+        }
+    },
+    "1701852559504460:39215782": {
+        "IResourceController": {
+            "name": "Scripts",
+            "type": 0,
+            "subtype": -1,
+            "dependency": 0,
+            "hidden": false,
+            "publicId": "1701852559503528:39215781",
+            "resources": [
+                "1701852559506483:39215785",
+                "1701852559512523:39215796",
+                "1701852559516225:39215804",
+                "1709790328291491:14634511"
+            ]
+        }
+    }
+}

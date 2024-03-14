@@ -1,0 +1,39 @@
+{
+    "1709790363320576:14643339": {
+        "IResourceController": {
+            "public": {
+                "path": "KirinUtil/Prefabs/uiBtnAlphaBackGroundPrefab.oprfb",
+                "hash": "b968a94d8d06b655d7d723650655faf3"
+            }
+        }
+    },
+    "1709790363321469:14643344": {
+        "IResourceController": {
+            "name": "uiBtnAlphaBackGroundPrefab",
+            "type": 12,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1709790363321416:14643341",
+            "fileId": "1709790363358828:14643366",
+            "originalId": "1709795499638963:16694587",
+            "publicId": "1709790363320576:14643339",
+            "expected_hash": "50d92116450fd014ec5ee57432445b7a"
+        },
+        "IResourceManager": {
+            "uid": "1709790363321416:14643341",
+            "name": "sceneObject_0",
+            "flags": 0
+        }
+    },
+    "1709790363358828:14643366": {
+        "IFileManager": {
+            "path": "Files/File_1709790363358828_14643366.oprfb"
+        }
+    },
+    "1709795499638963:16694587": {
+        "IFileManager": {
+            "path": "Files/File_1709795499638963_16694587.oprfb"
+        }
+    }
+}

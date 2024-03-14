@@ -1,0 +1,38 @@
+{
+    "1701852559514610:39215802": {
+        "IResourceController": {
+            "public": {
+                "path": "KirinUtil/Scripts/KRNUtil.js",
+                "hash": "bb1aedc8f0a68c1e009d5d93429591c7"
+            }
+        }
+    },
+    "1701852559515006:39215803": {
+        "IFileManager": {
+            "path": "Files/File_1701852559515006_39215803.js"
+        }
+    },
+    "1701852559516225:39215804": {
+        "IResourceController": {
+            "name": "KRNUtil",
+            "type": 4,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1701852559516240:39215805",
+            "fileId": "1701852559515006:39215803",
+            "publicId": "1701852559514610:39215802",
+            "expected_hash": "bb1aedc8f0a68c1e009d5d93429591c7"
+        },
+        "IResourceManager": {
+            "uid": "1701852559516240:39215805",
+            "name": "Files/File_1701852559515006_39215803.js",
+            "flags": 1
+        }
+    },
+    "1701852559516240:39215805": {
+        "ScriptModulesController": {
+            "dependent_module_names": []
+        }
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "1709791954216530:15069444": {
+        "IFileManager": {
+            "path": "Files/File_1709791954216530_15069444.png"
+        }
+    },
+    "1709791954220827:15069446": {
+        "IResourceController": {
+            "name": "alpha",
+            "type": 1,
+            "subtype": 9,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1709791954221579:15069447",
+            "fileId": "1709791954216530:15069444",
+            "originalId": "1709791954222046:15069452",
+            "publicId": "1709791954245855:15069458",
+            "expected_hash": "cf3c8b5fa20166946d6dfc925d7152ed",
+            "additional": {
+                "originHash": "bd8f2466f849a8ffa5df64b495d8a208",
+                "subtype": "9"
+            }
+        },
+        "IResourceManager": {
+            "uid": "1709791954221579:15069447",
+            "name": "Files/File_1709791954216530_15069444.jpg",
+            "flags": 1
+        }
+    },
+    "1709791954222046:15069452": {
+        "IFileManager": {
+            "path": "Files/File_1709791954222046_15069452.png"
+        }
+    },
+    "1709791954245855:15069458": {
+        "IResourceController": {
+            "public": {
+                "path": "KirinUtil/Textures/alpha.png",
+                "hash": "cf3c8b5fa20166946d6dfc925d7152ed"
+            }
+        }
+    }
+}

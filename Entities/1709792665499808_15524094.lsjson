@@ -1,0 +1,39 @@
+{
+    "1709792665497546:15524093": {
+        "IFileManager": {
+            "path": "Files/File_1709792665497546_15524093"
+        }
+    },
+    "1709792665499808:15524094": {
+        "IResourceController": {
+            "name": "Gold",
+            "type": 2,
+            "subtype": 1,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1709792665499812:15524095",
+            "fileId": "1709792665497546:15524093",
+            "originalId": "1709792665528291:15524104",
+            "publicId": "1709792665943839:15524259",
+            "expected_hash": "a7cdaeb3d1ff14d3a963a90d286f5695"
+        },
+        "IResourceManager": {
+            "uid": "1709792665499812:15524095",
+            "name": "Files/File_1709792665497546_15524093",
+            "flags": 1
+        }
+    },
+    "1709792665528291:15524104": {
+        "IFileManager": {
+            "path": "Files/File_1709792665528291_15524104.lsmat"
+        }
+    },
+    "1709792665943839:15524259": {
+        "IResourceController": {
+            "public": {
+                "path": "KirinUtil/Materials/Gold.lsmat",
+                "hash": "41edadc852e2b3e0f4ee90eb80b2de0d"
+            }
+        }
+    }
+}

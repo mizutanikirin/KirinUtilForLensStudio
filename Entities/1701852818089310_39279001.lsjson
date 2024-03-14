@@ -1,0 +1,38 @@
+{
+    "1701852818081529:39279000": {
+        "IFileManager": {
+            "path": "Files/File_1701852818081529_39279000.js"
+        }
+    },
+    "1701852818089310:39279001": {
+        "IResourceController": {
+            "name": "KirinUtilDemo",
+            "type": 4,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1701852818089327:39279002",
+            "fileId": "1701852818081529:39279000",
+            "publicId": "1701852818091082:39279007",
+            "expected_hash": "d748cad525034e4c4a43b28a8f729956"
+        },
+        "IResourceManager": {
+            "uid": "1701852818089327:39279002",
+            "name": "Files/File_1701852818081529_39279000.js",
+            "flags": 1
+        }
+    },
+    "1701852818089327:39279002": {
+        "ScriptModulesController": {
+            "dependent_module_names": []
+        }
+    },
+    "1701852818091082:39279007": {
+        "IResourceController": {
+            "public": {
+                "path": "KirinUtil/Demo/KirinUtilDemo.js",
+                "hash": "d748cad525034e4c4a43b28a8f729956"
+            }
+        }
+    }
+}

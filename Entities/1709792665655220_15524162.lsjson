@@ -1,0 +1,42 @@
+{
+    "1709792665651875:15524161": {
+        "IFileManager": {
+            "path": "Files/File_1709792665651875_15524161.png"
+        }
+    },
+    "1709792665655220:15524162": {
+        "IResourceController": {
+            "name": "White",
+            "type": 1,
+            "subtype": 9,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1709792665656420:15524163",
+            "fileId": "1709792665651875:15524161",
+            "originalId": "1709792665657144:15524168",
+            "publicId": "1709792665672147:15524176",
+            "expected_hash": "0c8dcfed2f50bb81ac5276a14967c005",
+            "additional": {
+                "originHash": "0c8dcfed2f50bb81ac5276a14967c005"
+            }
+        },
+        "IResourceManager": {
+            "uid": "1709792665656420:15524163",
+            "name": "Files/File_1709792665651875_15524161.jpg",
+            "flags": 1
+        }
+    },
+    "1709792665657144:15524168": {
+        "IFileManager": {
+            "path": "Files/File_1709792665657144_15524168.png"
+        }
+    },
+    "1709792665672147:15524176": {
+        "IResourceController": {
+            "public": {
+                "path": "KirinUtil/Textures/White.png",
+                "hash": "0c8dcfed2f50bb81ac5276a14967c005"
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "1701852559509006:39215794": {
+        "IResourceController": {
+            "public": {
+                "path": "KirinUtil/Scripts/KRNMedia.js",
+                "hash": "b1de7006ee79a76b3f63520de11f0005"
+            }
+        }
+    },
+    "1701852559509492:39215795": {
+        "IFileManager": {
+            "path": "Files/File_1701852559509492_39215795.js"
+        }
+    },
+    "1701852559512523:39215796": {
+        "IResourceController": {
+            "name": "KRNMedia",
+            "type": 4,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1701852559512538:39215797",
+            "fileId": "1701852559509492:39215795",
+            "publicId": "1701852559509006:39215794",
+            "expected_hash": "b1de7006ee79a76b3f63520de11f0005"
+        },
+        "IResourceManager": {
+            "uid": "1701852559512538:39215797",
+            "name": "Files/File_1701852559509492_39215795.js",
+            "flags": 1
+        }
+    },
+    "1701852559512538:39215797": {
+        "ScriptModulesController": {
+            "dependent_module_names": []
+        }
+    }
+}

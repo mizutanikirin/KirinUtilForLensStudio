@@ -1,0 +1,23 @@
+{
+    "1709790360822021:14642729": {
+        "IResourceController": {
+            "public": {
+                "path": "KirinUtil/Prefabs",
+                "hash": "2ed51057f3fcf0daf2f45089eb67c72e"
+            }
+        }
+    },
+    "1709790360822806:14642730": {
+        "IResourceController": {
+            "name": "Prefabs",
+            "type": 0,
+            "subtype": -1,
+            "dependency": 0,
+            "hidden": false,
+            "publicId": "1709790360822021:14642729",
+            "resources": [
+                "1709790363321469:14643344"
+            ]
+        }
+    }
+}

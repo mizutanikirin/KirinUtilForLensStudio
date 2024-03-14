@@ -1,0 +1,38 @@
+{
+    "1701852559504998:39215783": {
+        "IResourceController": {
+            "public": {
+                "path": "KirinUtil/Scripts/Timer.js",
+                "hash": "1232a0b4d4a7b9b5b49fd6c3a074465c"
+            }
+        }
+    },
+    "1701852559505342:39215784": {
+        "IFileManager": {
+            "path": "Files/File_1701852559505342_39215784.js"
+        }
+    },
+    "1701852559506483:39215785": {
+        "IResourceController": {
+            "name": "Timer",
+            "type": 4,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1701852559506494:39215786",
+            "fileId": "1701852559505342:39215784",
+            "publicId": "1701852559504998:39215783",
+            "expected_hash": "1232a0b4d4a7b9b5b49fd6c3a074465c"
+        },
+        "IResourceManager": {
+            "uid": "1701852559506494:39215786",
+            "name": "Files/File_1701852559505342_39215784.js",
+            "flags": 1
+        }
+    },
+    "1701852559506494:39215786": {
+        "ScriptModulesController": {
+            "dependent_module_names": []
+        }
+    }
+}

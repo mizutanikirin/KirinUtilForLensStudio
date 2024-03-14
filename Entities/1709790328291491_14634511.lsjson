@@ -1,0 +1,40 @@
+{
+    "1709790328288203:14634509": {
+        "IResourceController": {
+            "public": {
+                "path": "KirinUtil/Scripts/FadeUI.js",
+                "hash": "355f22410b192e3e18f54cdda4a3464e"
+            }
+        }
+    },
+    "1709790328288986:14634510": {
+        "IFileManager": {
+            "path": "Files/File_1709790328288986_14634510.js"
+        }
+    },
+    "1709790328291491:14634511": {
+        "IResourceController": {
+            "name": "FadeUI",
+            "type": 4,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1709790328291523:14634512",
+            "fileId": "1709790328288986:14634510",
+            "publicId": "1709790328288203:14634509",
+            "expected_hash": "355f22410b192e3e18f54cdda4a3464e"
+        },
+        "IResourceManager": {
+            "uid": "1709790328291523:14634512",
+            "name": "Files/File_1709790328288986_14634510.js",
+            "flags": 1
+        }
+    },
+    "1709790328291523:14634512": {
+        "ScriptModulesController": {
+            "dependent_module_names": [
+                "Coroutine"
+            ]
+        }
+    }
+}
