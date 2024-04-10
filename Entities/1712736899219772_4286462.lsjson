@@ -1,0 +1,39 @@
+{
+    "1712736899219772:4286462": {
+        "IResourceController": {
+            "name": "KirinUtil",
+            "type": 12,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1712736899219672:4286448",
+            "fileId": "1712736899252853:4286492",
+            "originalId": "1712737738829082:4567042",
+            "publicId": "1712736899256956:4286493",
+            "expected_hash": "b78eb7e3293a65350ce96c2c8b1d3fa3"
+        },
+        "IResourceManager": {
+            "uid": "1712736899219672:4286448",
+            "name": "KirinUtil",
+            "flags": 0
+        }
+    },
+    "1712736899252853:4286492": {
+        "IFileManager": {
+            "path": "Files/File_1712736899252853_4286492.oprfb"
+        }
+    },
+    "1712736899256956:4286493": {
+        "IResourceController": {
+            "public": {
+                "path": "KirinUtil/Prefabs/KirinUtil.oprfb",
+                "hash": "64c93979c8dbb4ff2f553293aebdc4e9"
+            }
+        }
+    },
+    "1712737738829082:4567042": {
+        "IFileManager": {
+            "path": "Files/File_1712737738829082_4567042.oprfb"
+        }
+    }
+}

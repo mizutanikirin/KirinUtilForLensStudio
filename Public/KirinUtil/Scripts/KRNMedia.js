@@ -141,7 +141,7 @@ KirinUtil.KRNMedia = {
     //----------------------------------
     //  Fade
     //----------------------------------
-    // UI fade in
+    // #region UI fade in
     // [Condition] FadeUI.js must be attached to targetObj
     // FadeInUI(SceneObject, float, float)
     // targetObj: Specify the object whose alpha value you want to change
@@ -174,11 +174,12 @@ KirinUtil.KRNMedia = {
             }
         }
     },
+    // #endregion
 
     //----------------------------------
     //  HSV conversion
     //----------------------------------
-    // Conversion from RGB to HSV
+    // #region Conversion from RGB to HSV
     Rgb2Hsv: function(r, g, b) {
         r /= 255, g /= 255, b /= 255;
         let max = Math.max(r, g, b), min = Math.min(r, g, b);
@@ -221,7 +222,45 @@ KirinUtil.KRNMedia = {
         }
 
         return [r * 255, g * 255, b * 255];
-    }
+    },
+    // #endregion
+
+    //----------------------------------
+    //  Audio
+    //----------------------------------
+    // #region Audio
+    // AudioPlay(Component.AudioComponent, float, bool)
+    AudioPlay: function(audio, volume, isLoop){
+        if(audio === null) return;
+
+        if(volume != null) {
+            if(volume < 0) volume = 0;
+            audio.volume = volume;
+        }
+
+        if(isLoop != null){
+            if(isLoop) audio.play(-1);
+            else audio.play(1);
+        }else{
+            audio.play(1);
+        }
+    },
+
+    // AudioFadeInPlay(Component.AudioComponent, float, float, bool)
+    AudioFadeInPlay(audio, lastVolume, fadeTime, isLoop){
+        if(audio === null) return;
+
+        audio.fadeInTime = fadeTime;
+        this.AudioPlay(audio, lastVolume, isLoop);
+    },
+
+    // AudioFadeOutStop(Component.AudioComponent, float)
+    AudioFadeOutStop(audio, fadeTime){
+        if(audio === null) return;
+        audio.fadeOutTime = fadeTime;
+        audio.stop(true);
+    },
+    // #endregion
 
 };
 

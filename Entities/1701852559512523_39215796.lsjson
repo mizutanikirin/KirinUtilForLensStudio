@@ -3,7 +3,7 @@
         "IResourceController": {
             "public": {
                 "path": "KirinUtil/Scripts/KRNMedia.js",
-                "hash": "b1de7006ee79a76b3f63520de11f0005"
+                "hash": "5002d972ee0926343d5b0ffb05a60728"
             }
         }
     },
@@ -22,7 +22,7 @@
             "uid": "1701852559512538:39215797",
             "fileId": "1701852559509492:39215795",
             "publicId": "1701852559509006:39215794",
-            "expected_hash": "b1de7006ee79a76b3f63520de11f0005"
+            "expected_hash": "5002d972ee0926343d5b0ffb05a60728"
         },
         "IResourceManager": {
             "uid": "1701852559512538:39215797",
