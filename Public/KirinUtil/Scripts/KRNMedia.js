@@ -36,7 +36,7 @@ KirinUtil.KRNMedia = {
     //----------------------------------
     // #region GetObjects
 
-    // Get all GameObjects under parent GameObject
+    // Get all SceneObjects under parent SceneObject
     // If there is a searchStr, get all objects containing the specified name
     // GetAllObjs(SceneObject)
     // GetAllObjs(SceneObject, String)
@@ -92,9 +92,9 @@ KirinUtil.KRNMedia = {
 
     //----------------------------------
     //  Delete all Objects under the 
-    //  parent GameObject
+    //  parent SceneObject
     //----------------------------------
-    // #region Delete all Objects under the parent GameObject
+    // #region Delete all Objects under the parent SceneObject
     DeleteAllObjs: function(parentObj, delParent) {
         var objs = this.GetChildObjs(parentObj);
         for(var i = 0; i < objs.length;i++){
@@ -221,7 +221,7 @@ KirinUtil.KRNMedia = {
             case 5: r = v, g = p, b = q; break;
         }
 
-        return [r * 255, g * 255, b * 255];
+        return [Math.round(r * 255), Math.round(g * 255), Math.round(b * 255)];
     },
     // #endregion
 
@@ -247,7 +247,7 @@ KirinUtil.KRNMedia = {
     },
 
     // AudioFadeInPlay(Component.AudioComponent, float, float, bool)
-    AudioFadeInPlay(audio, lastVolume, fadeTime, isLoop){
+    AudioFadeInPlay: function(audio, lastVolume, fadeTime, isLoop){
         if(audio === null) return;
 
         audio.fadeInTime = fadeTime;
@@ -255,7 +255,7 @@ KirinUtil.KRNMedia = {
     },
 
     // AudioFadeOutStop(Component.AudioComponent, float)
-    AudioFadeOutStop(audio, fadeTime){
+    AudioFadeOutStop: function(audio, fadeTime){
         if(audio === null) return;
         audio.fadeOutTime = fadeTime;
         audio.stop(true);
